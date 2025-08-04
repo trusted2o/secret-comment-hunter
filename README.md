@@ -26,11 +26,11 @@
 
 ### Steps
 
-1. Clone the repository
-   git clone https://github.com/trusted2o/secret-comment-hunter.git
-   cd secret-comment-hunter
+1. Clone the repository 
+2. git clone https://github.com/trusted2o/secret-comment-hunter.git
+3. cd secret-comment-hunter
    
-3. Install dependencies via pip
+4. Install dependencies via pip
 pip install -r requirements.txt
 
 ## Usage
