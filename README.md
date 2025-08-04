@@ -30,7 +30,7 @@
    git clone https://github.com/trusted2o/secret-comment-hunter.git
    cd secret-comment-hunter
    
-2. Install dependencies via pip
+3. Install dependencies via pip
 pip install -r requirements.txt
 
 ## Usage
