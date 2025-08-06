@@ -25,7 +25,7 @@ def main():
     timestamp = time.strftime("%Y-%m-%d_%H-%M-%S")
     safe_name = args.target.replace("://", "_").replace("/", "_").replace(".", "_")
 
-    output_dir = os.path.join("output", f"secretcommenthunter-{safe_name}-{timestamp}")
+    output_dir = os.path.join("output", f"{safe_name}")
     os.makedirs(output_dir, exist_ok=True)
 
     print(f"[*] Starting scan on: {args.target}")
